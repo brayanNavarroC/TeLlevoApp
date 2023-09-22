@@ -1,0 +1,12 @@
+.footer {
+  position: fixed; /* Fija el elemento en la posición especificada */
+  bottom: 0; /* Fija el footer en la parte inferior de la ventana o contenedor */
+  left: 0; /* Opcional: ajusta la posición horizontal si es necesario */
+  right: 0; /* Opcional: ajusta la posición horizontal si es necesario */
+  background-color: #333; /* Estilo de fondo del footer */
+  color: #00b7ff; /* Estilo del texto del footer */
+  padding: 10px; /* Espaciado interno del footer, ajusta según tus necesidades */
+  text-align: center; /* Alinea el contenido del footer al centro si es necesario */
+  z-index: 1000; /* Opcional: controla el orden de apilamiento si hay elementos superpuestos */
+  height: auto;
+}

@@ -1,0 +1,19 @@
+<ion-content [fullscreen]="true">
+  <div style="padding: 15%; padding-left: 30%; padding-right: 30%;"><img src="../../../assets/imagen/login.png" alt=""></div>
+  <div>
+    <div style="margin-left: 10px;">
+      <ion-input [(ngModel)]="usuario" label="Ingrese Usuario" labelPlacement="floating"
+       placeholder="ingrese"></ion-input>
+    </div>
+  </div>
+  <div>
+    <div style="margin-left: 10px;">
+      <ion-input [(ngModel)]="password" label="Ingrese Password" type="password" 
+      labelPlacement="floating"
+       placeholder="ingrese"></ion-input>
+    </div>
+  </div>
+  <div style="margin: 15px;">
+    <ion-button expand="block" (click)="irMenu()">Ingresar</ion-button>
+  </div>
+</ion-content>
